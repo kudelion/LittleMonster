@@ -1,0 +1,15 @@
+{
+  "extensions": [
+    "GitHub.github-vscode-theme",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "ritwickdey.LiveServer",
+    "stylelint.vscode-stylelint",
+    "ms-python.python"
+    // Additional Extensions Here
+  ],
+  "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc && echo ZSH_THEME='\"robbyrussell\"' >> ~/.zshrc", //Set Terminal Prompt to $
+  "postCreateCommand": "pip3 install livereload"
+}
+
+// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
